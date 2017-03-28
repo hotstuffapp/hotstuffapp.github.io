@@ -47,86 +47,17 @@
       <article class="pad-a">
             <div class="title">
         <img src="assets/securedwebsite.jpg">
-        <h2 class="wh">Secured Website Part 1 – Content Security Policy Setup (CSP)</h2>
+        <h2 class="wh">Get it on Google Play</h2>
         </div>
-        <p>When securing a website, there are multiple steps and factors one must consider. One of these steps and the purpose of this article is setting up a Content Security Policy (CSP). CSP is a computer security standard with the purpose of preventing attackers from polluting a website with malicious resources. What CSP does is that it enables a webmaster to whitelist (<a href="http://webmasterbits.com/perfect-htaccess-website-setup/">on the server side via .htaccess</a>) trusted resources that make part of the website he is controlling. In other words, CSP is like a website firewall which can be configured to only allow resources from specific hosts to be loaded into the website.</p>
+        <p>https://play.google.com/store/apps/details?id=com.metricsalliance.hotstuff</p>
  </article>
 
 
-
-<article class="pad-a">
-
-        <h2 class="lg">The Perfect .HTACCESS setup for passing Google Page Insight</h2>
-
-        <p>The contents of this .htaccess file have been carefully pieced together to provide answers for common enviromental setups. It will work well with the <a href="/web/20160111071815/https://developers.google.com/speed/pagespeed/insights/" target="_blank">Google Page Insight tool</a>. Here are the sections it addresses:</p>
-        <h4>CROSS-ORIGIN</h4>
-        <ul>
-        <li>Cross-origin requests (disabled by default)</li>
-        <li>Cross-origin images (enabled: sends the CORS header for images when browsers request it)</li>
-        <li>Cross-origin web fonts (allow for <strong><strong><em>eot|otf|tt|woff2</em></strong></strong> file types)</li>
-        <li>Cross-origin resource timing (disabled)</li>
-        </ul>
-        <h4>ERRORS</h4>
-        <ul>
-        <li>Error prevention (disable the pattern matching <strong>-MultiViews</strong>)</li>
-        </ul>
-        <h4>INTERNET EXPLORER</h4>
-        <ul>
-        <li>Document modes (force IE 8/9/10 to render pages in the highest mode available)</li>
-        <li>Iframes cookies (allow cookies to be set from iframes)</li>
-        </ul>
-        <h4>SECURITY</h4>
-        <ul>
-        <li>Clickjacking (example of “X-Frame-Options” response header with “DENY” value)</li>
-        <li>Content Security Policy (CSP) (whitelists trusted sources of content for data on your website)</li>
-        <li>File access (Block access to directories without a default document &amp; Block access to all hidden files and directories; ie. this .htaccess file)</li>
-        <li>HTTP Strict Transport Security (HSTS) (set SSL redirection on the client-side)</li>
-        <li>Reducing MIME type security risks (prevent MIME-sniffing)</li>
-        <li>Reflected Cross-Site Scripting (XSS) attacks (enable filter and prevent browsers from rendering)</li>
-        <li>Disabling Server-side technology information</li>
-        <li>Disabling Server software information</li>
-        <li>Compression</li>
-        <li>Content transformation (disabled)</li>
-        <li>ETags (removed ETags due to using “Expires Headers”)</li>
-        <li>Expires headers</li>
-        </ul>
-
-        <p>This .htaccess configuration works with static sites and any dynamic ones as well, like WordPress. Append the contents of this file to your working .htaccess file if you are running a dynamic website.</p>
-        <p>Now you can check your headers using the <a href="/web/20160111071815/https://securityheaders.io/" target="_blank">securityheaders.io</a> online checker tool.</p>
-
-      </article>      
+    
     </div>
     <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2 pure-u-xl-2-5 pad-a">
 
-      <article class="pad-a">
 
-        
-        <h2 class="lg">Sending HTML Emails the right way with Open Source Templates</h2>
-
-    
-
-    <p>When sending HTML emails one always has to consider the different devices / clients the receiver is using to read the contents of the email. Be it a mobile device or web-mail client via a browser, the email needs to display correspondingly to your requirements and send your message across without unwanted modifications.</p>
-
-    <p>To address this requirement we recommend using responsive HTML blueprint templates from known providers. These templates have been released and maintained open source by email delivery companies and provide versatile layouts that are responsive as well. We consider them a valuable asset and starting point when creating HTML emails.</p>
-<h3>List of Open Source Email Templates</h3>
-<p>Browsing through the examples below, one will find all popular layout options viable for most email types. Basically the bellow resources provide skeletons for inserting email contents like: text, images and links.</p>
-<h4><a href="https://github.com/mailchimp/Email-Blueprints" target="_blank">Mailchimp Email Blueprints</a></h4>
-<h4><a href="https://github.com/mailgun/transactional-email-templates" target="_blank">Mailgun HTML Email Templates</a></h4>
-
-<h4><a href="http://foundation.zurb.com/emails/email-templates.html" target="_blank">Zurb Ink Emails</a></h4>
-
-<h4><a href="https://www.sendwithus.com/resources/templates" target="_blank">Sendwithus HTML Email Templates</a></h4>
-
-<h3>Auto inline all CSS rules</h3>
-<p>When reading HTML emails, most email clients strip out &lt;head&gt; and &lt;style&gt; tags, thus the email will most likely display with no styling. To conquer this, we recommend users to inline their CSS rules (append each elements style directly into its container in the DOM). Obviously this is a daunting task and no developer should be stuck working this way thus here come some options for auto transforming email contents to include CSS styles inline.</p>
-<h4><a href="http://premailer.dialect.ca/" target="_blank">Premailer</a></h4>
-
-<h4><a href="http://templates.mailchimp.com/resources/inline-css/" target="_blank">MailChimp’s CSS Inliner Tool</a></h4>
-
-<h3>Sending the HTML email</h3>
-<p>Last step is to actually send the email, this step is the easiest one. Copy the outputted code from one of the CSS inliner tools and save it. This code is what makes up the email. Most email clients have options to “Insert HTML”, search for that option, paste the code from the CSS inliner and send a test email. That’s it.</p>
-
-      </article>      
     </div>
     <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2 pure-u-xl-1-5 pad-b">
       <aside>
@@ -134,9 +65,8 @@
       <p>Enter your email to receive our weekly technology newsletter.<p>
       <p>Are you a tech wizz? Contributions via guest posts, templates or snippets are highly appreciated.</p>
 
-          <h3><a href="https://github.com/webmasterbits">Github</a></h3>
-          <h3><a href="http://www.colourlovers.com/lover/webmasterbits">Colourlovers</a></h3>
-          <h3><a href="https://twitter.com/webmasterbits">Twitter</a></h3>
+          <h3><a href="https://play.google.com/store/apps/details?id=com.metricsalliance.hotstuff">Google Play</a></h3>
+          <h3><a href="https://twitter.com/hotstuffapp">Twitter</a></h3>
 
       </aside>
     </div>
@@ -151,7 +81,7 @@
 
 
     <footer>
-      <p>&copy; Copyright 2016 Daniel G.H.</p>
+      <p>&copy; Copyright 2017 Metrics Alliance - Hotstuff app</p>
     </footer>
 
   </body>

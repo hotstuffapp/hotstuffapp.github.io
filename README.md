@@ -1,2 +1,2 @@
 # Webmaster Bits
-Repository for http://webmasterbits.com website.
+Repository for http://hotstuffapp.com website.

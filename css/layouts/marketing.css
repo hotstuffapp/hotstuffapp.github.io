@@ -31,7 +31,10 @@ label {
     max-width: 100%;
     height: auto;
 }
-
+a, a:active, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
 /*
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need
